@@ -11,6 +11,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
+# Camera (MIUI)
+-include vendor/xiaomi/camera-lisa/BoardConfigInclude.mk
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/lisa_QGKI.config
 
