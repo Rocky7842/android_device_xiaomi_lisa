@@ -4,6 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Height of the status bar header bar when on Keyguard -->
+    <dimen name="status_bar_header_height_keyguard">64px</dimen>
+
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">32px</dimen>
 
